@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/WebPdTest/",
   plugins: [react()],
   build: {
-    outDir: "./dist",
+    outDir: "./docs",
   }
 })
