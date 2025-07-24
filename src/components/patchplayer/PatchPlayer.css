@@ -1,0 +1,29 @@
+﻿.player-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.controls input[type="range"] {
+    width: 300px;
+}
+
+.description {
+    margin-top: 30px;
+    color: #a0a0a0;
+    max-width: 400px;
+    text-align: center;
+}

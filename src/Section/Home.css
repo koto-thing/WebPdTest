@@ -1,0 +1,24 @@
+﻿.home-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.home-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
