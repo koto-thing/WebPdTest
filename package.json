@@ -10,12 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@webpd/compiler": "^0.1.1",
+    "@webpd/pd-parser": "^1.0.0",
+    "@webpd/runtime": "^0.1.2",
+    "jquery": "^3.7.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "webpd": "^1.0.0-alpha.12"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
+    "@types/jquery": "^3.5.32",
     "@types/node": "^24.1.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
